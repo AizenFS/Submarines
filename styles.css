@@ -1,0 +1,73 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    direction: rtl;
+    text-align: center;
+    margin:  0;
+}
+
+.banner{
+    background-color: #0f80d1; /* Blue banner */
+    color: black;
+    height: 33vh; /* Takes about a third of the screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin:  0;
+    font-size: 2.5rem;
+}
+
+h2{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+/* button {
+    background-color: white;
+    color: #0f80d1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+} */
+
+.banner .logo{
+    position: absolute;
+    top: 10px;
+    left:  10px;
+    max-height: 30vh;
+    max-width: fit-content;
+    object-fit:  contain;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content p {
+    max-width: 100%;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.content img {
+    width: 40%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.reverse img{
+    margin-right: 0px;
+    margin-left: 50px;
+    /* flex-direction: row-reverse; */
+}
+
+
